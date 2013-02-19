@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FsCheck.Xunit</id>
+    <version>0.3.0.0</version>
+    <title>FsCheck.Xunit</title>
+    <authors>Kurt Schelfthout</authors>
+    <owners>Kurt Schelfthout</owners>
+    <licenseUrl>http://fscheck.codeplex.com/license</licenseUrl>
+    <projectUrl>http://fscheck.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Integrates FsCheck with xUnit.NET by adding a PropertyAttribute that runs FsCheck tests, similar to xUnit.NET's FactAttribute.</description>
+    <summary>Integrates FsCheck with xUnit.NET</summary>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>xunit fscheck xunit.net</tags>
+    <dependencies>
+      <dependency id="FsCheck" version="0.8.3" />
+      <dependency id="xunit" version="[1.9.1, 2.0)" />
+    </dependencies>
+    <references>
+      <reference file="FsCheck.Xunit.dll" />
+    </references>
+  </metadata>
+</package>

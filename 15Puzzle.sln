@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "15Puzzle", "15Puzzle\15Puzzle.fsproj", "{73902D5C-D8DB-40A6-8D7E-8C7BE293FC14}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "15PuzzleTests", "15PuzzleTests\15PuzzleTests.fsproj", "{CBA423FC-3D01-4E28-9C63-999B20933CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73902D5C-D8DB-40A6-8D7E-8C7BE293FC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73902D5C-D8DB-40A6-8D7E-8C7BE293FC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73902D5C-D8DB-40A6-8D7E-8C7BE293FC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73902D5C-D8DB-40A6-8D7E-8C7BE293FC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA423FC-3D01-4E28-9C63-999B20933CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA423FC-3D01-4E28-9C63-999B20933CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA423FC-3D01-4E28-9C63-999B20933CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA423FC-3D01-4E28-9C63-999B20933CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
